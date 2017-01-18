@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+	<head>
+		<title> javascript testing</title>
+	</head>
+	<body>
+		<p id="pp">vnnvbnncnvcnc</p>
+		<button type="button" onclick="create()">Click me</button>
+	</body>
+	<script>
+		function create()
+		{
+			//alert("yuppy");
+			//var name = document.createElement("div");
+			var button = document.createElement("button");
+			button.id="ma_name";
+			button.type="submit";
+			document.body.appendChild(button);
+			document.getElementById("ma_name").innerHTML="This is a dynamic content";
+		}
+	</script>
+</html>
